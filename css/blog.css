@@ -1,0 +1,84 @@
+* {
+	margin: 0 auto;
+}
+
+h1 {
+	margin: 100px 0px 10px 0px;
+	text-transform: uppercase;
+	font-family: "Open Sans";
+	font-weight: 400;
+	font-size: 45px;
+	text-align: center;
+}
+
+h3 {
+	margin: 10px;
+	text-transform: uppercase;
+	font-family: "Open Sans";
+	font-weight: 300;
+	font-size: 30px;
+	text-align: center;
+}
+
+.feature-img {
+	display: block;
+	margin: auto;
+	/* to center an image : make it into a block level element 
+	and then change margin into auto */
+	padding: 5%;
+	text-align: center;
+}
+
+.text-wrapper {
+	margin: 1% 25% 5% 25%;
+}
+
+.text-wrapper h6 {
+	font-family: "Roboto";
+	font-weight: 400;
+	font-size: 20px;
+	margin: 0px;
+}
+
+
+.text-wrapper p {
+	/* select the div w/ class "text-wrapper" --> the p element */
+	white-space: pre-line;
+	font-family: "Lato";
+	font-weight: 300;
+	font-size: 15px;
+}
+
+/* ===================== footer ==================== */
+
+.footer-nav-wrapper{
+	margin: auto;
+	position: relative;
+}
+
+ul{
+	list-style: none;
+	display: inline-block;
+	position: absolute;
+	padding: 0;
+	left: 50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+}
+
+ul li {
+	float: left;
+}
+li a {
+	display: block;
+	padding: 5px 15px 50px 15px;
+	text-decoration: none;
+	color: #666;
+	/*font-family: "open sans";*/
+	font-size:18px;
+}
+
+li a:hover {
+	color: #c1c1c1;
+	cursor: pointer;
+}
